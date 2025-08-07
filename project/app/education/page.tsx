@@ -13,7 +13,7 @@ import NoSSR from "@/components/no-ssr"
 const educationTimeline = [
   {
     id: 1,
-    year: "2022 - 2024",
+    year: "2024",
     degree: "Software Engineering Program",
     institution: "ALX Africa",
     description: "ALX didn't just teach me how to code—it taught me how to build. Now, I can confidently create Web2-based projects, with ease.",
@@ -21,7 +21,7 @@ const educationTimeline = [
   },
   {
     id: 2,
-    year: "2023",
+    year: "2024",
     degree: "Ethereum Safari Blockchain Conference",
     institution: "Ethereum Safari Kenya",
     description: "Participated in Kenya's premier blockchain conference, connecting with industry leaders and exploring cutting-edge Web3 technologies and DeFi innovations.",
@@ -29,7 +29,7 @@ const educationTimeline = [
   },
   {
     id: 3,
-    year: "2022",
+    year: "2024",
     degree: "Women in Blockchain Certification",
     institution: "Women in Blockchain Initiative",
     description: "Specialized program focusing on empowering women in blockchain technology, covering smart contracts, tokenomics, and leadership in Web3.",
@@ -37,7 +37,7 @@ const educationTimeline = [
   },
   {
     id: 4,
-    year: "2021",
+    year: "2024",
     degree: "Inter-University Blockchain Program",
     institution: "InterUni Blockchain Network",
     description: "Advanced blockchain development program covering consensus mechanisms, smart contract security, and decentralized application architecture.",
@@ -45,7 +45,7 @@ const educationTimeline = [
   },
   {
     id: 5,
-    year: "2019 - 2020",
+    year: "2024",
     degree: "Web Development Bootcamp",
     institution: "RiseIn",
     description: "Intensive full-stack web development bootcamp covering modern JavaScript, React, Node.js, and database management systems.",
