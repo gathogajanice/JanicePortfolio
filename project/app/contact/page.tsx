@@ -47,10 +47,10 @@ export default function Contact() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="max-w-4xl"
         >
-          <h2 className="text-4xl font-['Bricolage_Grotesque'] font-bold mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-['Bricolage_Grotesque'] font-bold mb-4">
             Schedule a 1on1 call
           </h2>
-          <p className="text-white/80 text-lg mb-8">
+          <p className="text-white/80 text-sm sm:text-base lg:text-lg mb-8">
             Get in touch or shoot me an email directly on{" "}
             <a 
               href="mailto:janicegathoga@gmail.com"
@@ -94,7 +94,7 @@ export default function Contact() {
               transition={{ duration: 0.5, delay: 0.7 }}
               className="flex flex-col gap-3"
             >
-              <p className="text-lg text-white/90">
+              <p className="text-sm sm:text-base lg:text-lg text-white/90">
                 Scan the QR code to message me directly on whatsapp
               </p>
               <div className="flex items-center gap-3 text-[#b4f71c]">

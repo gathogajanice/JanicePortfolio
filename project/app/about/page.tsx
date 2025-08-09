@@ -106,8 +106,8 @@ export default function About() {
                   rel={item.url.startsWith('http') ? 'noopener noreferrer' : undefined}
                   className="flex-1 pt-0 cursor-pointer"
                 >
-                  <h2 className="font-['Bricolage_Grotesque'] text-2xl font-bold mb-2 hover:text-[#b4f71c] transition-colors duration-300">{item.title}</h2>
-                  <p className="text-white/80 mb-2 max-w-3xl text-base leading-relaxed">{item.description}</p>
+                  <h2 className="timeline-title font-['Bricolage_Grotesque'] text-xl sm:text-2xl font-bold mb-2 hover:text-[#b4f71c] transition-colors duration-300">{item.title}</h2>
+                  <p className="timeline-description text-white/80 mb-2 max-w-3xl text-sm sm:text-base leading-relaxed">{item.description}</p>
                 </Link>
                 <div className="min-w-[120px] text-right">
                   <motion.div

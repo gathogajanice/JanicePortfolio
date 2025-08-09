@@ -44,7 +44,7 @@ const projects = [
     description: 'Built on the Hedera Hashgraph, Assetra is a tokenized asset platform for the Nairobi Stock Exchange market. Discover and trade tokenized securities with secure and efficient transactions powered by Hedera\'s consensus mechanism.',
     images: ['/images/Assetra1.png'],
     tags: ['HEDERA HASHGRAPH', 'TOKENIZATION', 'NSE', 'BLOCKCHAIN'],
-    deployedUrl: 'https://assetra.example.com/',
+    deployedUrl: 'https://timely-nougat-e71dc9.netlify.app/',
     featured: true
   },
   {
@@ -145,10 +145,10 @@ export default function Projects() {
                   <div className="lg:w-1/2 p-8 lg:p-12">
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex-1">
-                        <h2 className="font-['Bricolage_Grotesque'] text-2xl lg:text-3xl font-bold mb-4 text-white group-hover:text-[#b4f71c] transition-colors duration-300">
+                        <h2 className="project-title font-['Bricolage_Grotesque'] text-xl sm:text-2xl lg:text-3xl font-bold mb-4 text-white group-hover:text-[#b4f71c] transition-colors duration-300">
                           {project.title}
                         </h2>
-                        <p className="text-white/80 mb-6 leading-relaxed text-base lg:text-lg">
+                        <p className="project-description text-white/80 mb-6 leading-relaxed text-sm sm:text-base lg:text-lg">
                           {project.description}
                         </p>
                       </div>

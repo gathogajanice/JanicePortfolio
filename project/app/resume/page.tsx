@@ -47,10 +47,10 @@ export default function Resume() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="max-w-4xl"
         >
-          <h2 className="text-4xl sm:text-5xl font-['Bricolage_Grotesque'] font-bold mb-6">
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-['Bricolage_Grotesque'] font-bold mb-6">
             My Resume
           </h2>
-          <p className="text-white/80 text-lg mb-12">
+          <p className="text-white/80 text-sm sm:text-base lg:text-lg mb-12">
             Here's my professional experience and skills
           </p>
 
@@ -93,11 +93,22 @@ export default function Resume() {
           transition={{ duration: 0.5, delay: 0.8 }}
           className="mt-24"
         >
-          <h3 className="font-['Anton'] text-2xl tracking-wider mb-8 border-b-2 border-[#b4f71c] pb-2 inline-block">
-            NOW LET&apos;S TALK TODAY
-          </h3>
+          <motion.div
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+          >
+            <Link 
+              href="/contact"
+              className="font-['Anton'] text-xl sm:text-2xl tracking-wider mb-8 border-b-2 border-[#b4f71c] pb-2 inline-block hover:border-[#9ee011] hover:text-[#9ee011] transition-all duration-200"
+            >
+              NOW LET&apos;S TALK TODAY
+            </Link>
+          </motion.div>
 
-          <SocialIcons />
+          <div className="mt-8">
+            <SocialIcons />
+          </div>
         </motion.div>
       </div>
     </main>

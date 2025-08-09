@@ -29,7 +29,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, delay: 0.1 }}
             >
-              <span className="text-lg font-normal text-white/80 mb-4 block">
+              <span className="text-base sm:text-lg font-normal text-white/80 mb-4 block">
                 Hey, I'm Janice Gathoga 👋
               </span>
               web3 can be complex. I build the
