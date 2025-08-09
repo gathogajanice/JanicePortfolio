@@ -26,7 +26,7 @@ const projects = [
     description: 'A blockchain land tokenization website for a freelance project I worked on. Connecting people with unique home ownership opportunities in exotic locations through secure, transparent blockchain-based property transactions.',
     images: ['/images/Welcomehome.png'],
     tags: ['BLOCKCHAIN', 'TOKENIZATION', 'REAL ESTATE', 'WEB3'],
-    deployedUrl: 'https://timely-nougat-e71dc9.netlify.app/',
+    deployedUrl: 'https://welcomehomeinternationalgroup.com/',
     featured: true
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     description: 'A project I built on Base Sepolia - a Farcaster mini app with Zora coins integration. Control the narrative of every story with Story Ripple, a platform for collaborative storytelling and narrative exploration.',
     images: ['/images/Storyripple.png'],
     tags: ['BASE SEPOLIA', 'FARCASTER', 'ZORA', 'WEB3'],
-    deployedUrl: 'https://storyripple-349ntntbl-janice-gathogas-projects.vercel.app/',
+    deployedUrl: 'https://storyripple.vercel.app/',
     featured: true
   },
   {
