@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Github, ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
 import Navbar from '@/components/navbar'
 import CursorGlow from '@/components/cursor-glow'
 import SocialIcons from '@/components/social-icons'
@@ -22,6 +22,24 @@ const projects = [
   },
   {
     id: 2,
+    title: 'Invoiced',
+    description: 'A hackathon-winning project where I am the cofounder, winning $7,500 USD. Invoiced is a Bitcoin invoice payment platform built with modern frontend technologies including React and Next.js. The platform features a responsive UI with smooth animations, real-time payment tracking, and seamless integration with Mezo for Bitcoin-backed stable payments. Built with TypeScript, Tailwind CSS, and Framer Motion for an exceptional user experience.',
+    images: ['/images/invoiced.png'],
+    tags: ['REACT', 'NEXT.JS', 'TYPESCRIPT', 'TAILWIND CSS', 'FRAMER MOTION', 'BITCOIN', 'WEB3'],
+    deployedUrl: 'https://binvoiced.com/',
+    featured: true
+  },
+  {
+    id: 3,
+    title: 'Christmas Bonanza',
+    description: 'A dynamic event website for the Christmas Bonanza festival built with Next.js and React. Features include interactive countdown timers, animated sections, responsive design with Tailwind CSS, and smooth page transitions. The frontend utilizes modern React patterns, custom animations, and optimized performance for an engaging user experience.',
+    images: ['/images/bonanza.png'],
+    tags: ['NEXT.JS', 'REACT', 'TAILWIND CSS', 'ANIMATIONS', 'RESPONSIVE DESIGN'],
+    deployedUrl: 'https://christmas-bonanza.vercel.app/',
+    featured: true
+  },
+  {
+    id: 4,
     title: 'Welcome Home International',
     description: 'A blockchain land tokenization website for a freelance project I worked on. Connecting people with unique home ownership opportunities in exotic locations through secure, transparent blockchain-based property transactions.',
     images: ['/images/Welcomehome.png'],
@@ -30,7 +48,7 @@ const projects = [
     featured: true
   },
   {
-    id: 3,
+    id: 5,
     title: 'Story Ripple',
     description: 'A project I built on Base Sepolia - a Farcaster mini app with Zora coins integration. Control the narrative of every story with Story Ripple, a platform for collaborative storytelling and narrative exploration.',
     images: ['/images/Storyripple.png'],
@@ -39,7 +57,7 @@ const projects = [
     featured: true
   },
   {
-    id: 4,
+    id: 6,
     title: 'Assetra',
     description: 'Built on the Hedera Hashgraph, Assetra is a tokenized asset platform for the Nairobi Stock Exchange market. Discover and trade tokenized securities with secure and efficient transactions powered by Hedera\'s consensus mechanism.',
     images: ['/images/Assetra1.png'],
@@ -48,12 +66,12 @@ const projects = [
     featured: true
   },
   {
-    id: 5,
-    title: 'Food Faction',
-    description: 'An NFT marketplace for food enthusiasts on the Internet Computer ecosystem. A community-driven platform where food lovers can collect, trade, and share culinary experiences through blockchain technology.',
-    images: ['/images/foodfaction.png'],
-    tags: ['NFT', 'INTERNET COMPUTER', 'MARKETPLACE', 'FOOD'],
-    deployedUrl: 'https://foodfaction-bi6.caffeine.xyz/',
+    id: 7,
+    title: 'Client Portfolio',
+    description: 'A professional portfolio website built with modern frontend technologies including React and Next.js. Features a clean, minimalist design with smooth scroll animations, responsive layouts using Tailwind CSS, and optimized performance. The site showcases creative work with interactive galleries and seamless navigation built with TypeScript for type safety.',
+    images: ['/images/tevin.png'],
+    tags: ['REACT', 'NEXT.JS', 'TYPESCRIPT', 'TAILWIND CSS', 'RESPONSIVE', 'ANIMATIONS'],
+    deployedUrl: 'https://tevinisaac.xyz/',
     featured: true
   }
 ];
@@ -219,6 +237,15 @@ export default function Projects() {
           <div className="mt-8">
             <SocialIcons />
           </div>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.3, delay: 1 }}
+            className="mt-8 text-white/50 text-sm text-center font-['Bricolage_Grotesque']"
+          >
+            portfolio made by Janicegathoga@gmail.com
+          </motion.p>
         </motion.div>
       </div>
     </main>
